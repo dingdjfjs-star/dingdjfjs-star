@@ -1,10 +1,10 @@
 # 你好，我是 Infy 😎
 
-GIS / 遥感 / WebGIS 方向的开发者。喜欢把完整的方法链做成**可复现、有展示力**的开源项目：既写 Python 遥感算法链（变化检测 / 面向对象分割 / SAR 粒度反演），也把地理知识做成可玩、可看、可复现的网页——诗词地图、数字孪生、AI 涌现叙事、文明沙盘。
+GIS / 遥感 / WebGIS 方向的开发者。喜欢把完整的方法链做成**可复现、有展示力**的开源项目：既写 Python 遥感算法链（变化检测 / 面向对象分割 / SAR 粒度反演），也搭 PostGIS + Express 全栈系统，还把地理知识做成可玩、可看、可复现的网页——诗词地图、数字孪生、AI 涌现叙事、文明沙盘。
 
 > 🌏 项目大多围绕同一个问题：**怎么让地理知识变得可玩、可看、可复现。**
 
-Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects: self-written Python pipelines for change detection, OBIA segmentation and SAR inversion, alongside playable web pieces from poetry maps to civilization sandboxes.
+Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects: self-written Python pipelines for change detection, OBIA segmentation and SAR inversion, a PostGIS + Express full-stack system, alongside playable web pieces from poetry maps to civilization sandboxes.
 
 ## 📚 开源作品集
 
@@ -13,6 +13,7 @@ Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects:
 | **[SAR 潮滩粒度反演](https://github.com/dingdjfjs-star/s1-grain-size-gpr)** ｜ [结果图库](https://dingdjfjs-star.github.io/s1-grain-size-gpr/) | Sentinel-1 时序相干 + 极化特征 GPR 反演潮滩粒径：输出均值 + 后验不确定度（test R² 0.911，优于 XGBoost 对照 0.874） | Lee Sigma 去斑自实现 · 时序相干 + Pauli + TWI 九维特征 · 误差来源与改进全留痕 |
 | **[面向对象分割分类](https://github.com/dingdjfjs-star/obia-segmentation)** ｜ [结果图库](https://dingdjfjs-star.github.io/obia-segmentation/) | 手写多尺度区域生长的 OBIA 全流程（Baatz & Schäpe 异质性准则）：对象级椒盐率较像素级 ↓11 倍、边界贴合 +49% | 优先队列 + union-find 自实现 · 对象内 GLCM 纹理与形状指数 · 参数敏感性扫描含失效机制分析 |
 | **[S2 时序变化检测](https://github.com/dingdjfjs-star/s2-cva-change-detection)** ｜ [结果图库](https://dingdjfjs-star.github.io/s2-cva-change-detection/) | Sentinel-2 时序土地覆被变化检测全自研流水线：CVA → Otsu → 伪变化过滤 → 转移矩阵，5 处植入事件召回 96.9~100% | 生长季 medoid 合成 + PIF 辐射归一化 · 自研连通域 / 形态学过滤规则 · F1 94.3%（带真值评估） |
+| **[WebGIS 全流程系统](https://github.com/dingdjfjs-star/webgis-fullstack)** | PostGIS 空间数据库 + Express API + Leaflet/Cesium 双前端：25 万 POI 六边形密度 / Moran's I / KNN 检索 + 流域 GB3838 水质监测 | 空间索引工程（KNN 100× 加速）· ST_AsMVT 矢量瓦片 · 16 接口集成测试 · 种子数据固定种子可复现 |
 | **[诗词地图](https://github.com/dingdjfjs-star/poetry-map)** ｜ [在线体验](https://dingdjfjs-star.github.io/poetry-map/) | 唐诗宋词里的山河（地名考据版）：137 首经典诗词 × 187 个古地名，点击点位看全诗 / 注释 / 诗人游历路线 | 古今地名考据库（别名 / 存疑全留痕）· Leaflet 离线水墨底图 · 数据流水线自动匹配 + 人工核查报告 |
 | **[地貌猜地点](https://github.com/dingdjfjs-star/landform-guess)** ｜ [在线体验](https://dingdjfjs-star.github.io/landform-guess/) | AI 出题 + AI 裁判的全球地貌推理游戏：50 套题 × 11 类地貌，逐条放线索，揭晓附完整地理推理链 | 约 2.4 万项断言质检 · 易泄露词自动扫描 · 程序绘画 + 实景署名照 |
 | **[海岸科考求生](https://github.com/dingdjfjs-star/coast-survival)** ｜ [在线体验](https://dingdjfjs-star.github.io/coast-survival/) | 潮汐 / 风暴潮 / 红树林题材的文字冒险：采样本、选观测站址、躲随机灾害、撤离结算，16 种结局 | 纯逻辑状态机（可序列化可回放）· DFS 25 万状态找死局 · 3000 局 fuzz 必终结 |

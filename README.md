@@ -30,6 +30,7 @@ Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects:
 
 | 项目 | 一句话简介 | 技术亮点 |
 |---|---|---|
+| **[绿血的拯救](https://github.com/dingdjfjs-star/green-blood-rescue)** ｜ [在线体验](https://dingdjfjs-star.github.io/green-blood-rescue/) | 一篇克苏鲁×福尔摩斯番外小说改编的网页动画短片：前情提要+六幕+尾声约 10 分钟，剪影角色与"影子慢半拍"母题，103 句台词配音（神经声/本机声）+中英双语字幕 | 零素材全代码绘制（12 场景+粒子雾+体积光）· 分层情绪音乐六情绪按幕切换 · rAF 停摆看门狗后台"广播剧模式" |
 | **[诗词地图](https://github.com/dingdjfjs-star/poetry-map)** ｜ [在线体验](https://dingdjfjs-star.github.io/poetry-map/) | 唐诗宋词里的山河（地名考据版）：137 首经典诗词 × 187 个古地名，点击点位看全诗 / 注释 / 诗人游历路线 | 古今地名考据库（别名 / 存疑全留痕）· Leaflet 离线水墨底图 · 数据流水线自动匹配 + 人工核查报告 |
 | **[地貌猜地点](https://github.com/dingdjfjs-star/landform-guess)** ｜ [在线体验](https://dingdjfjs-star.github.io/landform-guess/) | AI 出题 + AI 裁判的全球地貌推理游戏：50 套题 × 11 类地貌，逐条放线索，揭晓附完整地理推理链 | 约 2.4 万项断言质检 · 易泄露词自动扫描 · 程序绘画 + 实景署名照 |
 | **[海岸科考求生](https://github.com/dingdjfjs-star/coast-survival)** ｜ [在线体验](https://dingdjfjs-star.github.io/coast-survival/) | 潮汐 / 风暴潮 / 红树林题材的文字冒险：采样本、选观测站址、躲随机灾害、撤离结算，16 种结局 | 纯逻辑状态机（可序列化可回放）· DFS 25 万状态找死局 · 3000 局 fuzz 必终结 |

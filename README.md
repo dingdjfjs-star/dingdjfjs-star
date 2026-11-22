@@ -14,7 +14,7 @@ Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects:
 |---|---|---|
 | **[SAR 潮滩粒度反演](https://github.com/dingdjfjs-star/s1-grain-size-gpr)** ｜ [结果图库](https://dingdjfjs-star.github.io/s1-grain-size-gpr/) | Sentinel-1 时序相干 + 极化特征 GPR 反演潮滩粒径：输出均值 + 后验不确定度（test R² 0.911，优于 XGBoost 对照 0.874） | Lee Sigma 去斑自实现 · 时序相干 + Pauli + TWI 九维特征 · 误差来源与改进全留痕 |
 | **[面向对象分割分类](https://github.com/dingdjfjs-star/obia-segmentation)** ｜ [结果图库](https://dingdjfjs-star.github.io/obia-segmentation/) | 手写多尺度区域生长的 OBIA 全流程（Baatz & Schäpe 异质性准则）：对象级椒盐率较像素级 ↓11 倍、边界贴合 +49% | 优先队列 + union-find 自实现 · 对象内 GLCM 纹理与形状指数 · 参数敏感性扫描含失效机制分析 |
-| **[SAM vs 手写 OBIA](https://github.com/dingdjfjs-star/sam-vs-obia)** ｜ [在线报告](https://dingdjfjs-star.github.io/sam-vs-obia/) | 当 Meta 的 SAM 遇上手写 OBIA——同场景同协议受控对比：SAM2 零样本赢边界（F1 0.95 vs 0.48）与速度（24×），输 OA 与尺度可控 | 零样本大模型 vs 经典算法 · 提示三级阶梯（auto 0.38 → 点 0.60 → 框 0.87）· 默认 AMG 漏 23.2% 场景的边界效应分析 |
+| **[SAM vs 手写 OBIA](https://github.com/dingdjfjs-star/sam-vs-obia)** ｜ [在线报告](https://dingdjfjs-star.github.io/sam-vs-obia/) | 当 Meta 的 SAM 遇上手写 OBIA——v1 合成场景受控对比：SAM2 零样本赢边界（F1 0.95 vs 0.48）与速度（24×）；v2 LoveDA 真实数据三方案裁决：OBIA 0.920 仍冠、SAM 边界优势翻转（0.002~0.045）、U-Net 跨域 0.527 | 合成 vs 真实结论逐条裁决（成立/翻转）· 零样本输入预处理敏感性 + 提示三级阶梯（0.38→0.60→0.87）· 手写 U-Net 训练曲线与跨域代价全留痕 |
 | **[S2 时序变化检测](https://github.com/dingdjfjs-star/s2-cva-change-detection)** ｜ [结果图库](https://dingdjfjs-star.github.io/s2-cva-change-detection/) | Sentinel-2 时序土地覆被变化检测全自研流水线：CVA → Otsu → 伪变化过滤 → 转移矩阵，5 处植入事件召回 96.9~100% | 生长季 medoid 合成 + PIF 辐射归一化 · 自研连通域 / 形态学过滤规则 · F1 94.3%（带真值评估） |
 
 ### 🏗 全栈系统、数字孪生与空间决策

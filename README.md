@@ -35,7 +35,6 @@ Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects:
 | **[海岸科考求生](https://github.com/dingdjfjs-star/coast-survival)** ｜ [在线体验](https://dingdjfjs-star.github.io/coast-survival/) | 潮汐 / 风暴潮 / 红树林题材的文字冒险：采样本、选观测站址、躲随机灾害、撤离结算，16 种结局 | 纯逻辑状态机（可序列化可回放）· DFS 25 万状态找死局 · 3000 局 fuzz 必终结 |
 | **[青园巡记](https://github.com/dingdjfjs-star/qingyuan-xunji)** ｜ [在线体验](https://dingdjfjs-star.github.io/qingyuan-xunji/) | 涌现式校园叙事：六个 AI 角色（食堂阿姨 / 保安大爷 / 校园猫…）在真实校园生活七天，没有一个字出自人手 | 相遇对白互盲即兴 · 三关智能体逐句评审 · Google Earth 真实底图 · 单文件可断网运行 |
 | **[轮叙四箴](https://github.com/dingdjfjs-star/lunxu-sizhen)** ｜ [在线体验](https://dingdjfjs-star.github.io/lunxu-sizhen/) | 赣南师范大学 GIS 数字孪生滚动叙事：以校训「博达毅卓」为轴，一次滚动滚过赣师四年 | 109 栋真实建筑轮廓程序化拉伸三维楼群 · 卫星影像六点标定对齐 · 多智能体集群生成与评审 |
-| **[绿血的拯救](https://github.com/dingdjfjs-star/green-blood-rescue)** ｜ [在线体验](https://dingdjfjs-star.github.io/green-blood-rescue/) | 江颖菲小说改编的网页动画短片（克苏鲁×福尔摩斯番外）：前情提要+六幕+尾声约 10 分钟，剪影角色与"影子慢半拍"母题，103 句台词配音（神经声/本机声/录自己的声）+中英双语字幕 | 零素材全代码绘制（12 场景+粒子雾+体积光）· 分层情绪音乐六情绪按幕切换 · rAF 停摆看门狗后台"广播剧模式" |
 
 ### 🏝 程序生成模拟沙盘
 

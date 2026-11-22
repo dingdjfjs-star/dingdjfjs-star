@@ -43,7 +43,7 @@ Hi, I'm Infy — I build reproducible, demo-ready GIS & remote-sensing projects:
 |---|---|---|
 | **[孤岛文明沙盘](https://github.com/dingdjfjs-star/island-civ-sandbox)** ｜ [在线体验](https://dingdjfjs-star.github.io/island-civ-sandbox/) | Perlin 孤岛上的部落演化沙盘：地形资源程序生成，部落采集扩张、相遇冲突或吞并，同一种子逐位复现同一段历史 | 纯逻辑核心（可序列化可回放）· 89 万项断言质检 · 零依赖单文件双击即玩 |
 | **[福鼎城镇演化](https://github.com/dingdjfjs-star/fuding-evolution)** ｜ [在线体验](https://dingdjfjs-star.github.io/fuding-evolution/) | 以真实市域轮廓 + SRTM 高程为约束的城镇演化沙盘：南宋渔村渡口 → 当代湾区 6 轮推演，政策可切 | SRTM 真实 DEM + OSM 真实河网 · Three.js 三维逐年回放 · 10 类逻辑矛盾自动校验（93 项断言） |
-| **[虚构行星工坊](https://github.com/dingdjfjs-star/fictional-planet-maker)** | 中文一句话造星：自定义板块运动（欧拉极）、大气环流（哈德里环随自转缩放）、洋流（Sverdrup 流函数），自动生成山脉 / 流域 / 沙漠 / 季风气候分区 | 纯 Node 生成器（seed 可复现）· 30 余项地理逻辑自检 · GeoJSON×10 + 三张贴图 + planet.md 设定书 · Cesium 三维预览 |
+| **[虚构行星工坊](https://github.com/dingdjfjs-star/fictional-planet-maker)** ｜ [在线预览](https://dingdjfjs-star.github.io/fictional-planet-maker/) | 中文一句话造星：自定义板块运动（欧拉极）、大气环流（哈德里环随自转缩放）、洋流（Sverdrup 流函数），自动生成山脉 / 流域 / 沙漠 / 季风气候分区 | 纯 Node 生成器（seed 可复现）· 30 余项地理逻辑自检 · GeoJSON×10 + 三张贴图 + planet.md 设定书 · Cesium 三维预览 |
 
 ### 🤝 开源贡献
 
